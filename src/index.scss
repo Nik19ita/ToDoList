@@ -1,0 +1,38 @@
+@import "../node_modules/normalize-scss/sass/normalize/import-now";
+
+@font-face {
+  font-family: "Vazirmath";
+  src:
+    local("VazirmatnThin"),
+    url("../public/fonts/VazirmatnThin.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 100;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "Vazirmath", sans-serif;
+  background-color: #f4f5f9;
+  user-select: none
+}
+
+#root {
+  width: 550px;
+  height: 500px;
+  margin: 100px auto;
+  padding: 15px;
+  background-color: rgba(128, 128, 128, 0.1);
+  border-radius: 2px;
+}
